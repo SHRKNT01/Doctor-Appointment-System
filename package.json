@@ -1,0 +1,31 @@
+{
+  "name": "das",
+  "version": "1.0.0",
+  "description": "doctor appointment system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon serevr.js",
+    "client": "npm start --prefix ./client ",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Shrikant More",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
